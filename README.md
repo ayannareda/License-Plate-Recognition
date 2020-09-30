@@ -29,5 +29,5 @@ After processing the image :-<br /><br />
 After the License Plate is detected, we crop the license Plate and save the cropped version in Recognition folder.
 Cropped License Plate :-
 <div align="center">
-<img src="https://github.com/gearhead0909/License-Plate-Recognition/blob/master/Plate.jpg" width="250" height="150>
+<img src="https://github.com/gearhead0909/License-Plate-Recognition/blob/master/Plate.jpg" width="250" height="150">
 </div>
