@@ -21,4 +21,4 @@ Original Image used as a sample is shown below :-<br /><br />
 <img src="https://github.com/gearhead0909/License-Plate-Recognition/blob/master/Original.jpg" width="300" height="200">
 
 After processing the image :-<br /><br />
-<img src="https://github.com/gearhead0909/License-Plate-Recognition/blob/master/Processed.jpg" width="300" height="200">
+<img src="https://github.com/gearhead0909/License-Plate-Recognition/blob/master/Processed.jpg" width="300" height="300">
