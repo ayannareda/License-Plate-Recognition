@@ -17,8 +17,8 @@ Used YOLOV3 to detect only 1 class ["LP"].<br />
 To detect license plate, used pre-trained weights for License plate detetction.<br />
 Pre-trained weights for License Plate detection can be downloaded from https://www.kaggle.com/achrafkhazri/yolo-weights-for-licence-plate-detector<br /><br />
 
-Original Image used as a sample is shown below :-<br />
-<img src="https://github.com/gearhead0909/License-Plate-Recognition/blob/master/Original.jpg" width="500" height="300">
+Original Image used as a sample is shown below :-<br /><br />
+<img src="https://github.com/gearhead0909/License-Plate-Recognition/blob/master/Original.jpg" width="300" height="200">
 
-After processing the image :-<br />
-<img src="https://github.com/gearhead0909/License-Plate-Recognition/blob/master/Processed.jpg" width="500" height="300">
+After processing the image :-<br /><br />
+<img src="https://github.com/gearhead0909/License-Plate-Recognition/blob/master/Processed.jpg" width="300" height="200">
