@@ -40,7 +40,7 @@ Cropped License Plate :-<br /><br />
 After getting cropped image of the License plate, We segment different number present on the License plate.<br />
 Detected Contours on the License Plate. <br />
 Sort them from Left -> Right order.<br />
-Mark the digits and number with a rectangle.<br /><br />
+Mark the detected letters with a rectangle.<br />
 
 The segmented License Plate is shown below :-<br />
 <div align="center">
