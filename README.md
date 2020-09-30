@@ -19,10 +19,10 @@ Pre-trained weights for License Plate detection can be downloaded from https://w
 
 Original Image used as a sample is shown below :-<br /><br />
 <div align="center">
-<img src="https://github.com/gearhead0909/License-Plate-Recognition/blob/master/Original.jpg" width="300" height="200">
+<img src="https://github.com/gearhead0909/License-Plate-Recognition/blob/master/Original.jpg" width="500" height="300">
 </div>
 
 After processing the image :-<br /><br />
 <div align="center">
-<img src="https://github.com/gearhead0909/License-Plate-Recognition/blob/master/Processed.jpg" width="200" height="200">
+<img src="https://github.com/gearhead0909/License-Plate-Recognition/blob/master/Processed.jpg" width="300" height="300">
 </div>
