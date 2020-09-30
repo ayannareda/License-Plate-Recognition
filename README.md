@@ -60,7 +60,7 @@ The model was compiled with <br />
 Loss = "Categorical_Crossentroy"<br />
 Optimizer = "Adam"<br /><br />
 
-After the training, we achieved 94.87% training accuarcy.<br /><br />
+After the training, we achieved 94.87% training accuarcy.<br />
 
 Accuracy graph is shown below :-<br />
 <div align="center">
