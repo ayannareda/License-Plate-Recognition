@@ -37,39 +37,43 @@ Cropped License Plate :-<br /><br />
 
 ### Digit Segmentation
 
-After getting cropped image of the License plate, We segment different number present on the License plate.
-Detected Contours on the License Plate. 
-Sort them from Left -> Right order.
-Mark the digits and number with a rectangle.
+After getting cropped image of the License plate, We segment different number present on the License plate.<br />
+Detected Contours on the License Plate. <br />
+Sort them from Left -> Right order.<br />
+Mark the digits and number with a rectangle.<br /><br />
 
-The segmented License Plate is shown below :-
+The segmented License Plate is shown below :-<br />
 <div align="center">
 <img src="https://github.com/gearhead0909/License-Plate-Recognition/blob/master/Segmented.jpg" width="300" height="100">
 </div>
 
 ### Digit Recognition
 
-After Segmenting the Digits, we pass each of them from the trained cnn_classifier and predict the letters one by one.
-Dataset used for training Digit_classifier is publicly available on Kaggle.
-This dataset contains 36 classes for each alphabet and number.
-Each class contains 1016 images corresponding to that class.
-The Dataset can be downloaded from https://www.kaggle.com/passionoflife/english-typed-alphabets-and-numbers-dataset
+After Segmenting the Digits, we pass each of them from the trained cnn_classifier and predict the letters one by one.<br />
+Dataset used for training Digit_classifier is publicly available on Kaggle.<br />
+This dataset contains 36 classes for each alphabet and number.<br />
+Each class contains 1016 images corresponding to that class.<br />
+The Dataset can be downloaded from https://www.kaggle.com/passionoflife/english-typed-alphabets-and-numbers-dataset<br /><br />
 
-Keras was used to build a CNN Model to detect the segmented letters.
-The model was compiled with 
-Loss = "Categorical_Crossentroy"
-Optimizer = "Adam"
+Keras was used to build a CNN Model to detect the segmented letters.<br />
+The model was compiled with <br />
+Loss = "Categorical_Crossentroy"<br />
+Optimizer = "Adam"<br /><br />
 
-After the training, we achieved 94.87% training accuarcy.
+After the training, we achieved 94.87% training accuarcy.<br /><br />
 
-Accuracy graph is shown below :-
+Accuracy graph is shown below :-<br />
+<div align="center">
 <img src="https://github.com/gearhead0909/License-Plate-Recognition/blob/master/Recognition/Accuracy.png" width="500" height="300">
+</div>
 
-Loss graph is shown below :-
+Loss graph is shown below :-<br />
+<div align="center">
 <img src="https://github.com/gearhead0909/License-Plate-Recognition/blob/master/Recognition/Loss.png" width="500" height="300">
+</div>
 
-The model detected the 9 out of 10 letters corrected.
-Achieving 90% accuracy.
+The model detected the 9 out of 10 letters corrected.<br />
+Achieving 90% accuracy.<br /><br />
 
 <div align="center">
 <img src="https://github.com/gearhead0909/License-Plate-Recognition/blob/master/Predicted.png" width="300" height="100">
